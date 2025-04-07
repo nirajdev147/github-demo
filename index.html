@@ -1,2 +1,123 @@
-<p>Hello World</p>
-<p>H2</p>
+----------------------------- Git & Github *---------------------------
+
+
+1. git config --global user.name "your name" => to set the username for git.
+
+
+2. git config --global user.email "your email" => to set the email for git.
+
+
+3. First create new repository on github with README.md file 
+
+
+4. After creating go into the repository then arrow click the code button to copy HTTPS link.
+
+
+5. Then Create new folder in the desktop and open it in VSCODE.
+
+
+6. After opening it in VSCODE open new terminal either command or gitbash.
+
+
+7. After opening new terminal either command/gitbash go into that folder via cmd (cd <new folder>)
+
+
+8. After going into that folder clone that repository that  you created on github via HTTPS link
+     i.e (git clone <HTTPS LINK>)
+
+
+9. After cloning you will see that the repository that you created will be on new folder.
+
+
+10. ls 	(list an item)
+
+
+11. ls -a 	(list all hidden item)
+
+
+12. git status => Shows the status of a file that updated, deleted, created etc..
+
+
+13. Untracked files => new files that github is unable to track 
+
+
+14. After modifying, deleting any code in the file then first it must be add then commit 
+
+    i.e (git add <filename>) then (git commit -m "message")
+    (consider an example:- first engagement then Wedding) 
+
+
+15. You can add single file using cmd (git add <filename>) that you made changes in 
+        or all files in one cmd (git add .)
+        
+
+16. then you can check via cmd (git status) it shows all the files that are added/staged.
+
+        // if you want to check the changes in the file then you can use cmd (git diff <filename>) 
+        // it shows the changes that you made in the file.
+
+
+17. Now, staged files are ready to commit via command (git push origin main) 
+        // if you are using gitbash then you can use (git push) cmd line to push the files into github repository. 
+        // if you are using cmd line then you have to use (git push origin main) cmd line to push the files into github repository. 
+        // if not linked vs code with github then you have to linked first after both account linked 
+        you can check the cmd line that all new files are pushed into github repository from vscode  
+
+
+18. you can go back from directory via (cd ..)
+
+
+19. you can create new folder via cmd line (mkdir <filename>)
+
+    // if you want to create new folder inside the existing folder then you can use cmd line (mkdir <foldername>/<subfoldername>)
+    i.e (mkdir <foldername>/<subfoldername>) then you can check via cmd line (ls -a) to see if it is created or not.
+        // if you want to delete the folder then you can use cmd line (rm -rf <foldername>)
+        // if you want to delete the file then you can use cmd line (rm <filename>)
+        // if you want to rename the file then you can use cmd line (mv <old-filename> <new-filename>)
+        // if you want to move the file then you can use cmd line (mv <filename> <new-directory>)
+        // if you want to copy the file then you can use cmd line (cp <filename> <new-filename>)
+        // if you want to move the folder then you can use cmd line (mv <foldername> <new-directory>)
+        // if you want to copy the folder then you can use cmd line (cp -r <foldername> <new-directory>)
+        // if you want to see the content of the file then you can use cmd line (cat <filename>)
+
+
+20. After creating any directory you have to initialised first via cmd line (git init) the you can check
+    if it is listed or not by (ls -a) cmd line
+
+    // if you want to check the status of the file then you can use cmd line (git status) to see if it is initialised or not.
+
+
+21. clear => is a cmd line to clear the line.
+
+22. git log => to see the history of the commit that you made in the file.
+
+23. git log --oneline => to see the history of the commit in one line.
+
+24. git reset HEAD <filename> => to reset the file to the previous commit.
+
+25. git reset HEAD~1 => to reset the last commit.
+
+26. git reset HEAD~2 => to reset the last two commit.
+
+27. git checkout <commit-hash> => to go to any specific commit.
+
+28. git checkout -b <branch-name> => to create a new branch.
+
+29. git branch => to see all the branches.
+
+30. git checkout <branch-name> => to switch to a different branch.
+
+31. git merge <branch-name> => to merge the branch into the current branch.
+
+32. git pull => to pull the changes from the remote repository.
+
+33. git push => to push the changes to the remote repository.
+
+34. git push origin <branch-name> => to push the changes to the remote repository.
+
+35. git remote add origin <remote-repo-url> => to add a remote repository.
+
+36. git remote -v => to see the remote repository.
+
+
+
